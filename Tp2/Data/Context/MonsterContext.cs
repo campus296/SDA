@@ -9,5 +9,6 @@ namespace Tp2.Data.Context
         public MonsterContext(DbContextOptions<MonsterContext> options) : base(options)
         {
         }
+        public DbSet<Monster> Monsters { get; set; }
     }
 }

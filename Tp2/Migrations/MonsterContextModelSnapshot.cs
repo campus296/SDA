@@ -23,17 +23,17 @@ namespace Tp2.Migrations
 
             modelBuilder.Entity("Tp2.Models.Monster", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("IdMonster")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("IdMonster"));
 
                     b.Property<int>("DefenseBase")
                         .HasColumnType("int");
 
-                    b.Property<double>("ExperienceBase")
-                        .HasColumnType("double");
+                    b.Property<int>("ExperienceBase")
+                        .HasColumnType("int");
 
                     b.Property<int>("ForceBase")
                         .HasColumnType("int");
@@ -45,6 +45,9 @@ namespace Tp2.Migrations
                     b.Property<int>("PointsVieBase")
                         .HasColumnType("int");
 
+                    b.Property<int>("PokemonId")
+                        .HasColumnType("int");
+
                     b.Property<string>("SpriteUrl")
                         .IsRequired()
                         .HasColumnType("longtext");
@@ -54,10 +57,9 @@ namespace Tp2.Migrations
                         .HasColumnType("longtext");
 
                     b.Property<string>("Type2")
-                        .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.HasKey("Id");
+                    b.HasKey("IdMonster");
 
                     b.ToTable("Monster");
                 });

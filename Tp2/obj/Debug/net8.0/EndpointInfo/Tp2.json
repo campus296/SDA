@@ -1,0 +1,244 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Tp2",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Monster": {
+      "get": {
+        "tags": [
+          "Monster"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Monster"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Monster"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Monster"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Monster"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Monster"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Monster"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Monster"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Monster"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Monster"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Monster"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Monster/{id}": {
+      "get": {
+        "tags": [
+          "Monster"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Monster"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Monster"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Monster"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Monster"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Monster"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Monster"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Monster"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Monster"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Monster": {
+        "type": "object",
+        "properties": {
+          "idMonster": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pokemonId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nom": {
+            "type": "string",
+            "nullable": true
+          },
+          "pointsVieBase": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "forceBase": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "defenseBase": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "experienceBase": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "spriteUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "type1": {
+            "type": "string",
+            "nullable": true
+          },
+          "type2": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

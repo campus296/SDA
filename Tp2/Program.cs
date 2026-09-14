@@ -18,7 +18,7 @@ namespace Tp2
             builder.Services.AddSwaggerGen();
             builder.Services.AddDbContext<MonsterContext>(options =>
             {
-                var connectionString = builder.Configuration.GetConnectionString("Default");
+                var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
                 options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
             });
 
