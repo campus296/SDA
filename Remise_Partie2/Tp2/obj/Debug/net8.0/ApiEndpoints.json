@@ -107,5 +107,36 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tp2.Controllers.TuileController",
+    "Method": "GetTuile",
+    "RelativePath": "api/Tuile/{x}/{y}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "y",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Tp2.Models.Tuile",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

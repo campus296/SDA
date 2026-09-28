@@ -67,7 +67,7 @@ aside {
 
 .navigation button {
     padding: 8px;
-    margin: 3px;
+    margin: 1px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -86,8 +86,23 @@ aside {
     margin-top: 0;
 }
 
-/* Future carte */
-
 .carte {
-    min-height: 500px;
+    display: grid;
+
+    grid-template-columns: repeat(5, 175px);
+    grid-template-rows: repeat(5, 175px);
+
+    justify-content: center;
+
+    margin-top: 20px;
+}
+
+.case {
+    width: 175px;
+    height: 175px;
+
+    background-color: #333;
+
+    border: 1px solid #244b83;
+    cursor: pointer;
 }

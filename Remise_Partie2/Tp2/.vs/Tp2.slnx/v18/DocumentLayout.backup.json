@@ -3,28 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\2033511\\Documents\\SDA\\Remise_Partie2\\Tp2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DCCF533B-2C52-71AB-C078-D45C22C728B7}|Tp2.csproj|c:\\users\\2033511\\documents\\sda\\remise_partie2\\tp2\\models\\tuile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCCF533B-2C52-71AB-C078-D45C22C728B7}|Tp2.csproj|solutionrelative:models\\tuile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCCF533B-2C52-71AB-C078-D45C22C728B7}|Tp2.csproj|c:\\users\\2033511\\documents\\sda\\remise_partie2\\tp2\\models\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCCF533B-2C52-71AB-C078-D45C22C728B7}|Tp2.csproj|solutionrelative:models\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCCF533B-2C52-71AB-C078-D45C22C728B7}|Tp2.csproj|c:\\users\\2033511\\documents\\sda\\remise_partie2\\tp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCCF533B-2C52-71AB-C078-D45C22C728B7}|Tp2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCCF533B-2C52-71AB-C078-D45C22C728B7}|Tp2.csproj|c:\\users\\2033511\\documents\\sda\\remise_partie2\\tp2\\controllers\\tuilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCF533B-2C52-71AB-C078-D45C22C728B7}|Tp2.csproj|solutionrelative:controllers\\tuilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DCCF533B-2C52-71AB-C078-D45C22C728B7}|Tp2.csproj|c:\\users\\2033511\\documents\\sda\\remise_partie2\\tp2\\controllers\\monstercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DCCF533B-2C52-71AB-C078-D45C22C728B7}|Tp2.csproj|solutionrelative:controllers\\monstercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DCCF533B-2C52-71AB-C078-D45C22C728B7}|Tp2.csproj|c:\\users\\2033511\\documents\\sda\\remise_partie2\\tp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCF533B-2C52-71AB-C078-D45C22C728B7}|Tp2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCF533B-2C52-71AB-C078-D45C22C728B7}|Tp2.csproj|c:\\users\\2033511\\documents\\sda\\remise_partie2\\tp2\\migrations\\20260914033214_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCF533B-2C52-71AB-C078-D45C22C728B7}|Tp2.csproj|solutionrelative:migrations\\20260914033214_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCF533B-2C52-71AB-C078-D45C22C728B7}|Tp2.csproj|c:\\users\\2033511\\documents\\sda\\remise_partie2\\tp2\\models\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCF533B-2C52-71AB-C078-D45C22C728B7}|Tp2.csproj|solutionrelative:models\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DCCF533B-2C52-71AB-C078-D45C22C728B7}|Tp2.csproj|c:\\users\\2033511\\documents\\sda\\remise_partie2\\tp2\\data\\context\\monstercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DCCF533B-2C52-71AB-C078-D45C22C728B7}|Tp2.csproj|solutionrelative:data\\context\\monstercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DCCF533B-2C52-71AB-C078-D45C22C728B7}|Tp2.csproj|c:\\users\\2033511\\documents\\sda\\remise_partie2\\tp2\\migrations\\20260928215001_ajouttuile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCF533B-2C52-71AB-C078-D45C22C728B7}|Tp2.csproj|solutionrelative:migrations\\20260928215001_ajouttuile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DCCF533B-2C52-71AB-C078-D45C22C728B7}|Tp2.csproj|c:\\users\\2033511\\documents\\sda\\remise_partie2\\tp2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{DCCF533B-2C52-71AB-C078-D45C22C728B7}|Tp2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCF533B-2C52-71AB-C078-D45C22C728B7}|Tp2.csproj|c:\\users\\2033511\\documents\\sda\\remise_partie2\\tp2\\models\\tuile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCF533B-2C52-71AB-C078-D45C22C728B7}|Tp2.csproj|solutionrelative:models\\tuile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DCCF533B-2C52-71AB-C078-D45C22C728B7}|Tp2.csproj|c:\\users\\2033511\\documents\\sda\\remise_partie2\\tp2\\migrations\\20260909154948_nomdelamigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,28 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Tuile.cs",
-              "DocumentMoniker": "C:\\Users\\2033511\\Documents\\SDA\\Remise_Partie2\\Tp2\\Models\\Tuile.cs",
-              "RelativeDocumentMoniker": "Models\\Tuile.cs",
-              "ToolTip": "C:\\Users\\2033511\\Documents\\SDA\\Remise_Partie2\\Tp2\\Models\\Tuile.cs",
-              "RelativeToolTip": "Models\\Tuile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-23T14:31:47.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "20260909154948_NomDeLaMigration.cs",
               "DocumentMoniker": "C:\\Users\\2033511\\Documents\\SDA\\Remise_Partie2\\Tp2\\Migrations\\20260909154948_NomDeLaMigration.cs",
               "RelativeDocumentMoniker": "Migrations\\20260909154948_NomDeLaMigration.cs",
@@ -71,52 +66,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MonsterContext.cs",
               "DocumentMoniker": "C:\\Users\\2033511\\Documents\\SDA\\Remise_Partie2\\Tp2\\Data\\Context\\MonsterContext.cs",
               "RelativeDocumentMoniker": "Data\\Context\\MonsterContext.cs",
               "ToolTip": "C:\\Users\\2033511\\Documents\\SDA\\Remise_Partie2\\Tp2\\Data\\Context\\MonsterContext.cs",
               "RelativeToolTip": "Data\\Context\\MonsterContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T14:59:10.027Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Monster.cs",
-              "DocumentMoniker": "C:\\Users\\2033511\\Documents\\SDA\\Remise_Partie2\\Tp2\\Models\\Monster.cs",
-              "RelativeDocumentMoniker": "Models\\Monster.cs",
-              "ToolTip": "C:\\Users\\2033511\\Documents\\SDA\\Remise_Partie2\\Tp2\\Models\\Monster.cs",
-              "RelativeToolTip": "Models\\Monster.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T14:57:53.013Z",
+              "WhenOpened": "2026-09-09T14:59:10.027Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MonsterController.cs",
-              "DocumentMoniker": "C:\\Users\\2033511\\Documents\\SDA\\Remise_Partie2\\Tp2\\Controllers\\MonsterController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MonsterController.cs",
-              "ToolTip": "C:\\Users\\2033511\\Documents\\SDA\\Remise_Partie2\\Tp2\\Controllers\\MonsterController.cs",
-              "RelativeToolTip": "Controllers\\MonsterController.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T14:56:55.18Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\2033511\\Documents\\SDA\\Remise_Partie2\\Tp2\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\2033511\\Documents\\SDA\\Remise_Partie2\\Tp2\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-09T14:22:07.835Z"
             },
             {
               "$type": "Document",
@@ -126,9 +85,100 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\2033511\\Documents\\SDA\\Remise_Partie2\\Tp2\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABZAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-09T14:16:03.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20260914033214_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\2033511\\Documents\\SDA\\Remise_Partie2\\Tp2\\Migrations\\20260914033214_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260914033214_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\2033511\\Documents\\SDA\\Remise_Partie2\\Tp2\\Migrations\\20260914033214_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20260914033214_InitialCreate.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwBEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T21:59:23.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Monster.cs",
+              "DocumentMoniker": "C:\\Users\\2033511\\Documents\\SDA\\Remise_Partie2\\Tp2\\Models\\Monster.cs",
+              "RelativeDocumentMoniker": "Models\\Monster.cs",
+              "ToolTip": "C:\\Users\\2033511\\Documents\\SDA\\Remise_Partie2\\Tp2\\Models\\Monster.cs",
+              "RelativeToolTip": "Models\\Monster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T14:57:53.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MonsterController.cs",
+              "DocumentMoniker": "C:\\Users\\2033511\\Documents\\SDA\\Remise_Partie2\\Tp2\\Controllers\\MonsterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MonsterController.cs",
+              "ToolTip": "C:\\Users\\2033511\\Documents\\SDA\\Remise_Partie2\\Tp2\\Controllers\\MonsterController.cs",
+              "RelativeToolTip": "Controllers\\MonsterController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAAEQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T14:56:55.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TuileController.cs",
+              "DocumentMoniker": "C:\\Users\\2033511\\Documents\\SDA\\Remise_Partie2\\Tp2\\Controllers\\TuileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TuileController.cs",
+              "ToolTip": "C:\\Users\\2033511\\Documents\\SDA\\Remise_Partie2\\Tp2\\Controllers\\TuileController.cs",
+              "RelativeToolTip": "Controllers\\TuileController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAAF0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T21:48:43.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Tuile.cs",
+              "DocumentMoniker": "C:\\Users\\2033511\\Documents\\SDA\\Remise_Partie2\\Tp2\\Models\\Tuile.cs",
+              "RelativeDocumentMoniker": "Models\\Tuile.cs",
+              "ToolTip": "C:\\Users\\2033511\\Documents\\SDA\\Remise_Partie2\\Tp2\\Models\\Tuile.cs",
+              "RelativeToolTip": "Models\\Tuile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T14:31:47.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20260928215001_AjoutTuile.cs",
+              "DocumentMoniker": "C:\\Users\\2033511\\Documents\\SDA\\Remise_Partie2\\Tp2\\Migrations\\20260928215001_AjoutTuile.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260928215001_AjoutTuile.cs",
+              "ToolTip": "C:\\Users\\2033511\\Documents\\SDA\\Remise_Partie2\\Tp2\\Migrations\\20260928215001_AjoutTuile.cs",
+              "RelativeToolTip": "Migrations\\20260928215001_AjoutTuile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T21:50:01.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\2033511\\Documents\\SDA\\Remise_Partie2\\Tp2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\2033511\\Documents\\SDA\\Remise_Partie2\\Tp2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-09T14:22:07.835Z",
               "EditorCaption": ""
             }
           ]

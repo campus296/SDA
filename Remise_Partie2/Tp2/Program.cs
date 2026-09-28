@@ -22,7 +22,20 @@ namespace Tp2
                 options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
             });
 
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("SiteWeb", policy =>
+                {
+                    policy
+                        .WithOrigins("http://localhost:8080")
+                        .AllowAnyHeader()
+                        .AllowAnyMethod();
+                });
+            });
+
             var app = builder.Build();
+
+            app.UseCors("SiteWeb");
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())

@@ -189,6 +189,55 @@
           }
         }
       }
+    },
+    "/api/Tuile/{x}/{y}": {
+      "get": {
+        "tags": [
+          "Tuile"
+        ],
+        "parameters": [
+          {
+            "name": "x",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "y",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Tuile"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Tuile"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Tuile"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
@@ -233,6 +282,31 @@
             "nullable": true
           },
           "type2": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Tuile": {
+        "type": "object",
+        "properties": {
+          "positionX": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "positionY": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "type": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "estTraversable": {
+            "type": "boolean"
+          },
+          "imageURL": {
             "type": "string",
             "nullable": true
           }

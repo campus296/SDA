@@ -33,16 +33,17 @@
             <section class="panneau">
                 <h2>Navigation</h2>
 
+                <!-- Pour le moment les boutons ne font rien du tout c'est seulement pour mettre une indication de leur utilisation -->
                 <div class="navigation">
-                    <button>↑ Nord</button>
+                    <button onclick="Deplacement()">↑ Nord</button>
 
                     <div>
-                        <button>← Ouest</button>
-                        <button>Actualiser</button>
-                        <button>Est →</button>
+                        <button onclick="Deplacement()">Ouest</button>
+                        <button onclick="Actualiser()">↻</button>
+                        <button onclick="Deplacement()">Est →</button>
                     </div>
 
-                    <button>↓ Sud</button>
+                    <button onclick="Deplacement()">↓ Sud</button>
                 </div>
             </section>
 
@@ -76,12 +77,40 @@
             </div>
 
             <div class="carte">
-                <!-- La carte 5 x 5 sera ajoutée plus tard -->
+                <button class="case" ></button>
+                <button class="case" ></button>
+                <button class="case" ></button>
+                <button class="case" ></button>
+                <button class="case" ></button>
+
+                <button class="case" ></button>
+                <button class="case" ></button>
+                <button class="case" ></button>
+                <button class="case" ></button>
+                <button class="case" ></button>
+
+                <button class="case" ></button>
+                <button class="case" ></button>
+                <button class="case" ></button>
+                <button class="case" ></button>
+                <button class="case" ></button>
+
+                <button class="case" ></button>
+                <button class="case" ></button>
+                <button class="case" ></button>
+                <button class="case" ></button>
+                <button class="case" ></button>
+
+                <button class="case" ></button>
+                <button class="case" ></button>
+                <button class="case" ></button>
+                <button class="case"></button>
+                <button class="case"></button>
             </div>
 
         </section>
 
     </main>
-
+    <script src="js/script.js"></script>
 </body>
 </html>

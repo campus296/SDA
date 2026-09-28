@@ -2,12 +2,17 @@
 
 namespace Tp2.Models
 {
+    [PrimaryKey(nameof(PositionX), nameof(PositionY))]
     public class Tuile
     {
-        public int PositionX;
-        public int PositionY;
-        public int Type;
-        public byte estTraversable;
-        public string imageURL;
+        public int PositionX { get; set; }
+
+        public int PositionY { get; set; }
+
+        public int Type { get; set; }
+
+        public bool EstTraversable { get; set; }
+
+        public string ImageURL { get; set; } = string.Empty;
     }
 }
